@@ -1,0 +1,226 @@
+/** @import must precede all other statements */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+@import url("https://use.typekit.net/ynk4btz.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * Tailwind CSS theme
+   * tailwind.config.ts expects the following color variables to be expressed as HSL values.
+   * A different format will require also updating the theme in tailwind.config.ts.
+  */
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+
+    --primary: 0 0% 0%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 0%;
+
+    --muted: 0 0% 89%;
+    --muted-foreground: 0 0% 39%;
+
+    --accent: 0 0% 96%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 89%;
+    --input: 0 0% 89%;
+    --ring: 0 0% 0%;
+
+    --radius: 0px;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 0 0% 26.1%;
+
+    --sidebar-primary: 0 0% 0%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 0 0% 95.9%;
+
+    --sidebar-accent-foreground: 0 0% 0%;
+
+    --sidebar-border: 0 0% 91%;
+
+    --sidebar-ring: 0 0% 59.8%;
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+
+    --card: 0 0% 0%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 0 0% 0%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 0 0% 100%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 0 0% 17.5%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 17.5%;
+    --muted-foreground: 0 0% 65.1%;
+
+    --accent: 0 0% 17.5%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 17.5%;
+    --input: 0 0% 17.5%;
+    --ring: 0 0% 83.9%;
+    --sidebar-background: 0 0% 10%;
+    --sidebar-foreground: 0 0% 95.9%;
+    --sidebar-primary: 0 0% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 15.9%;
+    --sidebar-accent-foreground: 0 0% 95.9%;
+    --sidebar-border: 0 0% 15.9%;
+    --sidebar-ring: 0 0% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-foreground;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    background-color: #faf8f5;
+  }
+
+  h1 {
+    font-family: "Rajdhani", sans-serif !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.01em;
+  }
+
+  h2, h3, h4, h5, h6 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+
+  p, span, li, a, button, label, td, th {
+    font-family: "Rajdhani", sans-serif;
+  }
+
+  :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  pre,
+  code {
+    overflow-x: auto;
+    white-space: pre;
+  }
+}
+
+/* Smooth scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* Text size customizations */
+.text-xs {
+  font-size: 0.95rem;
+}
+
+.text-sm {
+  font-size: 0.98rem;
+  line-height: 1.30rem;
+}
+
+/* Team Page Desktop Styles */
+@media (min-width: 1024px) {
+  .member-dharam-pal-gupta {
+    padding-bottom: 350px !important;
+    margin-top: -40px;
+  }
+
+  .member-gautam-gupta {
+    padding-top: 350px !important;
+  }
+
+  .member-gautam-gupta h3 {
+    margin-top: 50px;
+  }
+
+  .member-rachit-gupta {
+    margin-top: 10px;
+  }
+
+  .member-diksha-gupta {
+    padding-top: 350px !important;
+  }
+
+  .member-diksha-gupta h3 {
+    margin-top: 50px;
+  }
+
+  .member-rohil-gupta {
+    margin-top: 10px;
+  }
+
+  .year-1959.year-index-0 {
+    margin-top: -315px;
+  }
+
+  .year-1990.year-index-1 {
+    margin-top: -490px;
+  }
+
+  .year-2021.year-index-2 {
+    margin-top: -315px;
+  }
+
+  .year-2021.year-index-3 {
+    margin-top: -490px;
+  }
+
+  .year-2024.year-index-4 {
+    margin-top: -315px;
+  }
+}
