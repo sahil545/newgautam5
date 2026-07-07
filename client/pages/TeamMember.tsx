@@ -40,8 +40,8 @@ export default function TeamMember() {
       </button>
 
       {/* Profile Content */}
-      <section className="pt-32 pb-20 mx-auto" style={{ maxWidth: "80rem", width: "80rem", padding: "1rem", marginTop: "2rem" }}>
-        <div className="w-full">
+      <section className="pt-32 pb-20 mx-auto" style={{ maxWidth: "80rem", width: "80rem", padding: "1rem" }}>
+        <div className="w-full" style={{ marginTop: "80px" }}>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Image */}
             <div className="md:col-span-1">
