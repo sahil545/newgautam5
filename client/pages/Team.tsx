@@ -91,7 +91,7 @@ export default function Team() {
                           <p className="text-xs text-gray-600 mb-3 leading-relaxed">
                             {member.education}
                           </p>
-                          <div className="w-64 h-40 mx-auto overflow-hidden bg-gray-100">
+                          <div className="w-64 h-60 mx-auto overflow-hidden bg-gray-100">
                             <img
                               src={member.image}
                               alt={member.name}
