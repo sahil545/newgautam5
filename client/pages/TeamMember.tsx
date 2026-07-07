@@ -45,9 +45,9 @@ export default function TeamMember() {
       </button>
 
       {/* Profile Content */}
-      <section className="pt-32 pb-20 mx-auto" style={{ maxWidth: "80rem", width: "80rem", padding: "1rem" }}>
+      <section className="pt-20 md:pt-32 pb-20 w-full px-4 sm:px-6 lg:px-12 mx-auto lg:mx-auto" style={{ maxWidth: "100%", width: "100%" }} id="profile-section">
         <div className="w-full" id="team-member-content">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
             {/* Image */}
             <div className="md:col-span-1">
               <div className="sticky top-32 md:sticky md:top-32">
@@ -63,21 +63,21 @@ export default function TeamMember() {
 
             {/* Content */}
             <div className="md:col-span-2">
-              <div className="mb-12">
+              <div className="mb-8 md:mb-12">
                 <h1
-                  className="text-3xl md:text-4xl font-normal text-gray-900 mb-2 tracking-widest uppercase"
+                  className="text-2xl sm:text-3xl md:text-4xl font-normal text-gray-900 mb-2 tracking-widest uppercase"
                   style={{
                     fontFamily: "Rajdhani, sans-serif",
-                    letterSpacing: "6px",
+                    letterSpacing: "4px",
                   }}
                 >
                   {member.name}
                 </h1>
                 <p
-                  className="text-lg text-gray-600 uppercase tracking-wider"
+                  className="text-sm sm:text-base md:text-lg text-gray-600 uppercase tracking-wider"
                   style={{
                     fontFamily: "Rajdhani, sans-serif",
-                    letterSpacing: "3px",
+                    letterSpacing: "2px",
                   }}
                 >
                   {member.role}
@@ -87,7 +87,7 @@ export default function TeamMember() {
               {/* Bio */}
               <div>
                 <p
-                  className="text-base text-gray-700 leading-relaxed whitespace-pre-line"
+                  className="text-sm sm:text-base text-gray-700 leading-relaxed whitespace-pre-line"
                   style={{
                     fontFamily: "Rajdhani, sans-serif",
                     lineHeight: "1.8",
