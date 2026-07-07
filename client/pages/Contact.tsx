@@ -145,19 +145,25 @@ export default function Contact() {
                       className="text-foreground font-medium mb-2"
                       style={{ fontFamily: "Rajdhani, sans-serif" }}
                     >
-                      Tour Umbrella, SCO 29
+                      OFFICE
                     </p>
                     <p
                       className="text-muted-foreground"
                       style={{ fontFamily: "Rajdhani, sans-serif" }}
                     >
-                      First Floor, Tribune Rd
+                      SCO 13 First Floor
                     </p>
                     <p
                       className="text-muted-foreground"
                       style={{ fontFamily: "Rajdhani, sans-serif" }}
                     >
-                      Sector 20D, Sector 20
+                      Sector 20 D
+                    </p>
+                    <p
+                      className="text-muted-foreground"
+                      style={{ fontFamily: "Rajdhani, sans-serif" }}
+                    >
+                      Dakshin Marg
                     </p>
                     <p
                       className="text-muted-foreground"
