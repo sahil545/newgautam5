@@ -94,17 +94,9 @@ export default function About() {
                   lineHeight: "1.8",
                 }}
               >
-                Ar. Gautam Gupta trained under the distinguished Ar. Dharam Pal Gupta, a mentor with extensive experience in housing, institutional, and public projects. His exposure to European architecture during travels and studies in Paris shaped his forward-thinking approach to contemporary design.
+                Ar. Gautam Gupta trained under the distinguished Ar. Dharam Pal Gupta, a mentor with extensive experience in housing, institutional, and public projects. Having been part of the team that planned and designed Chandigarh—and having witnessed the city evolve through its formative years—his design philosophy is rooted in simplicity, clarity, and timeless modernity. His exposure to European architecture during his travels and studies in Paris in the early 1960s further shaped his forward-thinking and contemporary approach.
               </p>
-              <p
-                className="text-base text-gray-700 leading-relaxed"
-                style={{
-                  fontFamily: "Rajdhani, sans-serif",
-                  lineHeight: "1.8",
-                }}
-              >
-                The firm's leadership combines decades of expertise with a commitment to innovation, ensuring every project reflects their dedication to architectural excellence and client satisfaction.
-              </p>
+              
             </div>
           </div>
         </div>
@@ -123,7 +115,7 @@ export default function About() {
               lineHeight: "1.8",
             }}
           >
-            With a legacy built on experience, vision, and design excellence, Gautam & Associates remains committed to crafting thoughtful, functional, and enduring architectural solutions. The firm is dedicated to excellence, with a philosophy rooted in thoughtfulness, functionality, and architectural integrity.
+           Over the last 35 years, Gautam & Associates has delivered a wide spectrum of Residential, Institutional, Commercial, and Hospitality projects. The firm continues to work on several prestigious hospitality developments across Zirakpur (Punjab), Kurukshetra & Karnal (Haryana), Kasauli, Shimla Hills and the Manali Valley (Himachal Pradesh), Arpora (North Goa), as well as throughout the Tri-City region of Chandigarh, Panchkula, and Mohali.
           </p>
           <p
             className="text-base text-gray-700 leading-relaxed"
@@ -132,8 +124,18 @@ export default function About() {
               lineHeight: "1.8",
             }}
           >
-            The family shares a deep-rooted association with the fields of Art and Architecture, collectively dedicating over six decades to this creative and meaningful profession—and continuing to contribute with the same passion and commitment today.
+            With a legacy built on experience, vision, and design excellence, Gautam & Associates remains committed to crafting thoughtful, functional, and enduring architectural solutions.
           </p>
+          <p
+            className="text-base text-gray-700 leading-relaxed"
+            style={{
+              fontFamily: "Rajdhani, sans-serif",
+              lineHeight: "1.8",
+            }}
+          >
+          The family shares a deep-rooted association with the fields of Art and Architecture, collectively dedicating over six decades to this creative and meaningful profession—and continuing to contribute with the same passion and commitment today.
+</p>
+
         </div>
       </section>
 
