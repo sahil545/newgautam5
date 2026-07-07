@@ -44,7 +44,7 @@ export default function About() {
                   letterSpacing: "6px",
                 }}
               >
-                Our Journey
+                Gautam & Associates
               </h2>
               <p
                 className="text-base text-gray-700 leading-relaxed"
