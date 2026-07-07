@@ -36,6 +36,10 @@ export default function Header() {
 
   const menuItems = [
     {
+      label: "Home",
+      href: "/",
+    },
+    {
       label: "Studio",
       href: "#",
       submenu: [
