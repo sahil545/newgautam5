@@ -16,7 +16,7 @@ export const teamMembers: TeamMember[] = [
     role: "Founder & Mentor",
     image: "https://cdn.builder.io/o/assets%2F9c4b66000efd41e78140e4d6e6d29921%2F37b5045e7a5e4aa6939b342fa4ed6a70?alt=media&token=f9de05bd-f4eb-4cd1-807c-d406174de6fb&apiKey=9c4b66000efd41e78140e4d6e6d29921",
     bio: "Ar. Dharam Pal Gupta is a distinguished architect and mentor with extensive experience in housing, institutional, and public projects. He has shaped the forward-thinking and contemporary approach to architecture.",
-    education: "Graduated with Honors in Architecture from the Indian Institute of Technology (IIT), Kharagpur in 1959. Selected by the Government of France for advanced studies, trained as an apprentice under Architect Zavaroni at the École des Beaux-Arts, Paris.",
+    education: "Graduated with Honors in Architecture from the Indian Institute of Technology (IIT), Kharagpur in 1959. In 1962, he was selected by the Government of France for advanced studies, where he trained as an apprentice under Architect Zavaroni at the École des Beaux-Arts, Paris.",
     experience: [
       "Completed Diploma in Development Studies with specialization in Regional Planning at IEED, Paris",
       "Short-term course on housing schemes by Ministry of Works and Construction, Government of India",
