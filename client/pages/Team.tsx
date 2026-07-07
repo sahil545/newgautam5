@@ -144,6 +144,11 @@ export default function Team() {
                     fontFamily: "Rajdhani, sans-serif",
                   }}
                 >
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-auto object-contain group-hover:opacity-90 transition-opacity duration-300 mb-4"
+                  />
                   <div className="flex justify-between items-start mb-4">
                     <div>
                       <h3 className="text-lg font-bold text-gray-900 mb-1 tracking-wide">
@@ -166,11 +171,6 @@ export default function Team() {
                   <p className="text-xs text-gray-600 mb-4 leading-relaxed">
                     {member.bio}
                   </p>
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-full h-auto object-contain group-hover:opacity-90 transition-opacity duration-300"
-                  />
                 </div>
               </Link>
             ))}
