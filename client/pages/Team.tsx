@@ -114,9 +114,11 @@ export default function Team() {
                   className="flex justify-center"
                 >
                   <span
-                    className={`text-5xl md:text-6xl font-bold text-gray-900 leading-none year-${year} year-index-${index}`}
+                    className={`text-gray-900 leading-none year-${year} year-index-${index}`}
                     style={{
                       fontFamily: "Rajdhani, sans-serif",
+                      fontSize: "40px",
+                      fontWeight: 600,
                     }}
                   >
                     {year}
@@ -151,7 +153,13 @@ export default function Team() {
                         {member.role}
                       </h5>
                     </div>
-                    <span className={`text-3xl font-bold text-gray-300 year-${years[index]} year-index-${index}`}>
+                    <span
+                      className={`text-gray-300 year-${years[index]} year-index-${index}`}
+                      style={{
+                        fontSize: "40px",
+                        fontWeight: 600,
+                      }}
+                    >
                       {years[index]}
                     </span>
                   </div>
