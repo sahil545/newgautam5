@@ -205,7 +205,8 @@
   }
 
   .year-1959.year-index-0 {
-    margin-top: -490px;
+      margin-top: -580px;
+      margin-left: -380px !important;
   }
 
   .year-1990.year-index-1 {
@@ -221,6 +222,7 @@
   }
 
   .year-2024.year-index-4 {
-    margin-top: -490px;
+            margin-top: -580px;
+              margin-left: -380px !important;
   }
 }
