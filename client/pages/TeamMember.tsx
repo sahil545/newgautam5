@@ -80,9 +80,9 @@ export default function TeamMember() {
               </div>
 
               {/* Bio */}
-              <div className="mb-12">
+              <div>
                 <p
-                  className="text-base text-gray-700 leading-relaxed"
+                  className="text-base text-gray-700 leading-relaxed whitespace-pre-line"
                   style={{
                     fontFamily: "Rajdhani, sans-serif",
                     lineHeight: "1.8",
@@ -91,98 +91,6 @@ export default function TeamMember() {
                   {member.bio}
                 </p>
               </div>
-
-              {/* Education */}
-              {member.education && (
-                <div className="mb-12">
-                  <h2
-                    className="text-xl font-normal text-gray-900 mb-4 uppercase tracking-wider"
-                    style={{
-                      fontFamily: "Rajdhani, sans-serif",
-                      letterSpacing: "4px",
-                    }}
-                  >
-                    Education
-                  </h2>
-                  <p
-                    className="text-base text-gray-700 leading-relaxed"
-                    style={{
-                      fontFamily: "Rajdhani, sans-serif",
-                      lineHeight: "1.8",
-                    }}
-                  >
-                    {member.education}
-                  </p>
-                </div>
-              )}
-
-              {/* Experience */}
-              {member.experience && member.experience.length > 0 && (
-                <div className="mb-12">
-                  <h2
-                    className="text-xl font-normal text-gray-900 mb-6 uppercase tracking-wider"
-                    style={{
-                      fontFamily: "Rajdhani, sans-serif",
-                      letterSpacing: "4px",
-                    }}
-                  >
-                    Experience & Expertise
-                  </h2>
-                  <ul className="space-y-4">
-                    {member.experience.map((exp, idx) => (
-                      <li
-                        key={idx}
-                        className="flex gap-4"
-                      >
-                        <span className="text-gray-900 mt-1">•</span>
-                        <p
-                          className="text-base text-gray-700 leading-relaxed"
-                          style={{
-                            fontFamily: "Rajdhani, sans-serif",
-                            lineHeight: "1.8",
-                          }}
-                        >
-                          {exp}
-                        </p>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-
-              {/* Achievements */}
-              {member.achievements && member.achievements.length > 0 && (
-                <div>
-                  <h2
-                    className="text-xl font-normal text-gray-900 mb-6 uppercase tracking-wider"
-                    style={{
-                      fontFamily: "Rajdhani, sans-serif",
-                      letterSpacing: "4px",
-                    }}
-                  >
-                    Achievements
-                  </h2>
-                  <ul className="space-y-4">
-                    {member.achievements.map((achievement, idx) => (
-                      <li
-                        key={idx}
-                        className="flex gap-4"
-                      >
-                        <span className="text-gray-900 mt-1">•</span>
-                        <p
-                          className="text-base text-gray-700 leading-relaxed"
-                          style={{
-                            fontFamily: "Rajdhani, sans-serif",
-                            lineHeight: "1.8",
-                          }}
-                        >
-                          {achievement}
-                        </p>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
             </div>
           </div>
         </div>
