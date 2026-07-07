@@ -38,7 +38,7 @@ export default function Footer() {
                 </a>
               </li>
               <li className="pt-3">
-                <a href="https://www.instagram.com/ar.gautamgupta1969?igsh=MWEwNjZpNW5qcmVobg%3D%3D" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 transition-colors flex items-center gap-2 font-semibold">
+                <a href="https://www.instagram.com/gautamassociates_1990?igsh=MXNrM3JpbG5heGZnaA==" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 transition-colors flex items-center gap-2 font-semibold">
                   <Instagram size={14} />
                   STAY CONNECTED
                 </a>

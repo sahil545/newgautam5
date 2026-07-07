@@ -44,7 +44,7 @@ export default function About() {
                   letterSpacing: "6px",
                 }}
               >
-                Our Journey
+                Gautam & Associates
               </h2>
               <p
                 className="text-base text-gray-700 leading-relaxed"
@@ -79,29 +79,14 @@ export default function About() {
       </section>
 
       {/* Vision & Leadership Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-12" style={{ backgroundColor: "#f5f1e5" }}>
+      <section className="py-4 px-4 sm:px-6 lg:px-12" style={{ backgroundColor: "#f5f1e5" }}>
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            {/* Image */}
-            <div className="rounded-lg overflow-hidden shadow-lg order-2 md:order-1">
-              <img
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=500&fit=crop"
-                alt="Architectural Design"
-                className="w-full h-full object-cover"
-              />
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-12 items-center text-center">
+            
 
             {/* Content */}
             <div className="space-y-6 order-1 md:order-2">
-              <h2
-                className="text-3xl font-normal text-gray-900 tracking-widest uppercase"
-                style={{
-                  fontFamily: "Rajdhani, sans-serif",
-                  letterSpacing: "6px",
-                }}
-              >
-                Vision & Leadership
-              </h2>
+              
               <p
                 className="text-base text-gray-700 leading-relaxed"
                 style={{
@@ -109,171 +94,20 @@ export default function About() {
                   lineHeight: "1.8",
                 }}
               >
-                Ar. Gautam Gupta trained under the distinguished Ar. Dharam Pal Gupta, a mentor with extensive experience in housing, institutional, and public projects. His exposure to European architecture during travels and studies in Paris shaped his forward-thinking approach to contemporary design.
+                Ar. Gautam Gupta trained under the distinguished Ar. Dharam Pal Gupta, a mentor with extensive experience in housing, institutional, and public projects. Having been part of the team that planned and designed Chandigarh—and having witnessed the city evolve through its formative years—his design philosophy is rooted in simplicity, clarity, and timeless modernity. His exposure to European architecture during his travels and studies in Paris in the early 1960s further shaped his forward-thinking and contemporary approach.
               </p>
-              <p
-                className="text-base text-gray-700 leading-relaxed"
-                style={{
-                  fontFamily: "Rajdhani, sans-serif",
-                  lineHeight: "1.8",
-                }}
-              >
-                The firm's leadership combines decades of expertise with a commitment to innovation, ensuring every project reflects their dedication to architectural excellence and client satisfaction.
-              </p>
+              
             </div>
           </div>
         </div>
       </section>
 
-      {/* Values Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-12">
-        <div className="max-w-6xl mx-auto">
-          <h2
-            className="text-3xl font-normal text-gray-900 mb-16 text-center tracking-widest uppercase"
-            style={{
-              fontFamily: "Rajdhani, sans-serif",
-              letterSpacing: "8px",
-            }}
-          >
-            Our Core Values
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Value 1 */}
-            <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center mb-6">
-                <span
-                  className="text-white text-xl font-bold"
-                  style={{ fontFamily: "Rajdhani, sans-serif" }}
-                >
-                  01
-                </span>
-              </div>
-              <h3
-                className="text-lg font-normal text-gray-900 mb-4 uppercase tracking-wider"
-                style={{
-                  fontFamily: "Rajdhani, sans-serif",
-                  letterSpacing: "3px",
-                }}
-              >
-                Excellence
-              </h3>
-              <p
-                className="text-sm text-gray-700 leading-relaxed"
-                style={{
-                  fontFamily: "Rajdhani, sans-serif",
-                  lineHeight: "1.7",
-                }}
-              >
-                We are committed to delivering architectural solutions of the highest quality, combining thoughtful design with meticulous execution.
-              </p>
-            </div>
-
-            {/* Value 2 */}
-            <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center mb-6">
-                <span
-                  className="text-white text-xl font-bold"
-                  style={{ fontFamily: "Rajdhani, sans-serif" }}
-                >
-                  02
-                </span>
-              </div>
-              <h3
-                className="text-lg font-normal text-gray-900 mb-4 uppercase tracking-wider"
-                style={{
-                  fontFamily: "Rajdhani, sans-serif",
-                  letterSpacing: "3px",
-                }}
-              >
-                Integrity
-              </h3>
-              <p
-                className="text-sm text-gray-700 leading-relaxed"
-                style={{
-                  fontFamily: "Rajdhani, sans-serif",
-                  lineHeight: "1.7",
-                }}
-              >
-                Guided by principles of honesty and architectural integrity, we ensure every project reflects our dedication to our clients.
-              </p>
-            </div>
-
-            {/* Value 3 */}
-            <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center mb-6">
-                <span
-                  className="text-white text-xl font-bold"
-                  style={{ fontFamily: "Rajdhani, sans-serif" }}
-                >
-                  03
-                </span>
-              </div>
-              <h3
-                className="text-lg font-normal text-gray-900 mb-4 uppercase tracking-wider"
-                style={{
-                  fontFamily: "Rajdhani, sans-serif",
-                  letterSpacing: "3px",
-                }}
-              >
-                Innovation
-              </h3>
-              <p
-                className="text-sm text-gray-700 leading-relaxed"
-                style={{
-                  fontFamily: "Rajdhani, sans-serif",
-                  lineHeight: "1.7",
-                }}
-              >
-                We embrace contemporary approaches and forward-thinking design while respecting timeless architectural principles.
-              </p>
-            </div>
-
-            {/* Value 4 */}
-            <div className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center mb-6">
-                <span
-                  className="text-white text-xl font-bold"
-                  style={{ fontFamily: "Rajdhani, sans-serif" }}
-                >
-                  04
-                </span>
-              </div>
-              <h3
-                className="text-lg font-normal text-gray-900 mb-4 uppercase tracking-wider"
-                style={{
-                  fontFamily: "Rajdhani, sans-serif",
-                  letterSpacing: "3px",
-                }}
-              >
-                Sustainability
-              </h3>
-              <p
-                className="text-sm text-gray-700 leading-relaxed"
-                style={{
-                  fontFamily: "Rajdhani, sans-serif",
-                  lineHeight: "1.7",
-                }}
-              >
-                We create spaces that harmonize with their surroundings, balancing modern luxury with environmental responsibility.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+ 
 
       {/* Legacy Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-12" style={{ backgroundColor: "#f5f1e5" }}>
+      <section className="py-4 px-4 sm:px-6 lg:px-12" style={{ backgroundColor: "#f5f1e5" }}>
         <div className="max-w-4xl mx-auto text-center">
-          <h2
-            className="text-3xl font-normal text-gray-900 mb-12 tracking-widest uppercase"
-            style={{
-              fontFamily: "Rajdhani, sans-serif",
-              letterSpacing: "8px",
-            }}
-          >
-            Our Legacy
-          </h2>
+          
           <p
             className="text-base text-gray-700 leading-relaxed mb-8"
             style={{
@@ -281,7 +115,7 @@ export default function About() {
               lineHeight: "1.8",
             }}
           >
-            With a legacy built on experience, vision, and design excellence, Gautam & Associates remains committed to crafting thoughtful, functional, and enduring architectural solutions. The firm is dedicated to excellence, with a philosophy rooted in thoughtfulness, functionality, and architectural integrity.
+           Over the last 35 years, Gautam & Associates has delivered a wide spectrum of Residential, Institutional, Commercial, and Hospitality projects. The firm continues to work on several prestigious hospitality developments across Zirakpur (Punjab), Kurukshetra & Karnal (Haryana), Kasauli, Shimla Hills and the Manali Valley (Himachal Pradesh), Arpora (North Goa), as well as throughout the Tri-City region of Chandigarh, Panchkula, and Mohali.
           </p>
           <p
             className="text-base text-gray-700 leading-relaxed"
@@ -290,23 +124,25 @@ export default function About() {
               lineHeight: "1.8",
             }}
           >
-            The family shares a deep-rooted association with the fields of Art and Architecture, collectively dedicating over six decades to this creative and meaningful profession—and continuing to contribute with the same passion and commitment today.
+            With a legacy built on experience, vision, and design excellence, Gautam & Associates remains committed to crafting thoughtful, functional, and enduring architectural solutions.
           </p>
+          <p
+            className="text-base text-gray-700 leading-relaxed"
+            style={{
+              fontFamily: "Rajdhani, sans-serif",
+              lineHeight: "1.8",
+            }}
+          >
+          The family shares a deep-rooted association with the fields of Art and Architecture, collectively dedicating over six decades to this creative and meaningful profession—and continuing to contribute with the same passion and commitment today.
+</p>
+
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-12">
+      <section className="py-4 px-4 sm:px-6 lg:px-12">
         <div className="max-w-4xl mx-auto text-center">
-          <h2
-            className="text-3xl font-normal text-gray-900 mb-8 tracking-widest uppercase"
-            style={{
-              fontFamily: "Rajdhani, sans-serif",
-              letterSpacing: "8px",
-            }}
-          >
-            Meet Our Team
-          </h2>
+        
           <p
             className="text-lg text-gray-700 mb-8 leading-relaxed"
             style={{

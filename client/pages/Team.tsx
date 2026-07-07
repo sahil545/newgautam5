@@ -11,7 +11,7 @@ export default function Team() {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-12">
+      <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-12 w-full lg:mx-auto" style={{ maxWidth: "100%", width: "100%" }} id="hero-section">
         <div className="max-w-4xl mx-auto text-center">
           <h1
             className="text-4xl md:text-5xl font-normal text-gray-900 mb-8 tracking-widest uppercase"
@@ -35,7 +35,7 @@ export default function Team() {
       </section>
 
       {/* Timeline Section */}
-      <section className="w-full py-16 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-12">
+      <section className="w-full py-16 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-12 lg:mx-auto" style={{ maxWidth: "100%", width: "100%" }} id="timeline-section">
         {/* Desktop Timeline */}
         <div className="hidden lg:block">
           <div className="relative w-full" style={{ minHeight: "550px" }}>
@@ -85,17 +85,17 @@ export default function Team() {
                           <h3 className="text-base font-bold text-gray-900 mb-0.5 tracking-wide">
                             {member.name}
                           </h3>
-                          <h5 className="text-sm font-bold text-gray-700 mb-2 tracking-wide">
+                          <h6 className="text-sm font-medium text-gray-500 mb-2 tracking-wide">
                             {member.role}
-                          </h5>
+                          </h6>
                           <p className="text-xs text-gray-600 mb-3 leading-relaxed">
                             {member.education}
                           </p>
-                          <div className="w-64 h-40 mx-auto overflow-hidden bg-gray-100">
+                          <div className="mx-auto overflow-hidden bg-gray-100" style={{ width: "180px", height: "auto" }}>
                             <img
                               src={member.image}
                               alt={member.name}
-                              className="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"
+                              className="w-full h-auto object-cover group-hover:opacity-90 transition-opacity duration-300"
                             />
                           </div>
                         </div>
@@ -114,9 +114,11 @@ export default function Team() {
                   className="flex justify-center"
                 >
                   <span
-                    className={`text-5xl md:text-6xl font-bold text-gray-900 leading-none year-${year} year-index-${index}`}
+                    className={`text-gray-900 leading-none year-${year} year-index-${index}`}
                     style={{
                       fontFamily: "Rajdhani, sans-serif",
+                      fontSize: "40px",
+                      fontWeight: 600,
                     }}
                   >
                     {year}
@@ -142,6 +144,11 @@ export default function Team() {
                     fontFamily: "Rajdhani, sans-serif",
                   }}
                 >
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-auto object-contain group-hover:opacity-90 transition-opacity duration-300 mb-4"
+                  />
                   <div className="flex justify-between items-start mb-4">
                     <div>
                       <h3 className="text-lg font-bold text-gray-900 mb-1 tracking-wide">
@@ -151,18 +158,19 @@ export default function Team() {
                         {member.role}
                       </h5>
                     </div>
-                    <span className={`text-3xl font-bold text-gray-300 year-${years[index]} year-index-${index}`}>
+                    <span
+                      className={`text-gray-300 year-${years[index]} year-index-${index}`}
+                      style={{
+                        fontSize: "40px",
+                        fontWeight: 600,
+                      }}
+                    >
                       {years[index]}
                     </span>
                   </div>
                   <p className="text-xs text-gray-600 mb-4 leading-relaxed">
                     {member.bio}
                   </p>
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-full h-auto object-contain group-hover:opacity-90 transition-opacity duration-300"
-                  />
                 </div>
               </Link>
             ))}

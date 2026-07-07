@@ -109,16 +109,13 @@ export default function Contact() {
 
       {/* Map Section */}
       <section className="w-full h-96 md:h-[500px] lg:h-[600px] bg-foreground">
-        <iframe
-          width="100%"
+       
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.81482429986!2d76.77542878320803!3d30.719519352480525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedaadde82a27%3A0x77757b7dc8dca540!2sSector%2020D%2C%20Sector%2020%2C%20Chandigarh!5e0!3m2!1sen!2sin!4v1783404051353!5m2!1sen!2sin" width="100%"
           height="100%"
           style={{ border: 0 }}
           loading="lazy"
           allowFullScreen
-          referrerPolicy="strict-origin-when-cross-origin"
-          src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d30922.177006797356!2d76.77026745241314!3d30.711584624768367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d30.6490245!2d76.8605644!4m5!1s0x390fedab4e10da57%3A0xbd4883d4df7c6648!2sTour%20Umbrella%2C%20SCO%2029%20%2C%20First%20Floor%2C%20Tribune%20Rd%2C%20Sector%2020D%2C%20Sector%2020%2C%20Chandigarh%2C%20160020!3m2!1d30.719079699999998!2d76.7751505!5e0!3m2!1sen!2sin!4v1782375245503!5m2!1sen!2sin"
-          title="Gautam & Associates Location"
-        />
+          referrerPolicy="strict-origin-when-cross-origin"></iframe>
       </section>
 
       {/* Contact Info & Form Section */}
@@ -145,19 +142,25 @@ export default function Contact() {
                       className="text-foreground font-medium mb-2"
                       style={{ fontFamily: "Rajdhani, sans-serif" }}
                     >
-                      Tour Umbrella, SCO 29
+                      OFFICE
                     </p>
                     <p
                       className="text-muted-foreground"
                       style={{ fontFamily: "Rajdhani, sans-serif" }}
                     >
-                      First Floor, Tribune Rd
+                      SCO 13 First Floor
                     </p>
                     <p
                       className="text-muted-foreground"
                       style={{ fontFamily: "Rajdhani, sans-serif" }}
                     >
-                      Sector 20D, Sector 20
+                      Sector 20 D
+                    </p>
+                    <p
+                      className="text-muted-foreground"
+                      style={{ fontFamily: "Rajdhani, sans-serif" }}
+                    >
+                      Dakshin Marg
                     </p>
                     <p
                       className="text-muted-foreground"
@@ -228,7 +231,7 @@ export default function Contact() {
                   Stay Connected
                 </h2>
                 <a
-                  href="https://www.instagram.com/ar.gautamgupta1969?igsh=MWEwNjZpNW5qcmVobg%3D%3D"
+                  href="https://www.instagram.com/gautamassociates_1990?igsh=MXNrM3JpbG5heGZnaA==https://www.instagram.com/gautamassociates_1990?igsh=MXNrM3JpbG5heGZnaA=="
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-foreground hover:text-muted-foreground transition-colors"

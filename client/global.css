@@ -13,6 +13,19 @@
    * tailwind.config.ts expects the following color variables to be expressed as HSL values.
    * A different format will require also updating the theme in tailwind.config.ts.
   */
+
+  @media (min-width: 1024px) {
+    #hero-section {
+      max-width: 1300px;
+      width: 1300px;
+    }
+
+    #timeline-section {
+      max-width: 1300px;
+      width: 1300px;
+    }
+  }
+
   :root {
     --background: 0 0% 100%;
     --foreground: 0 0% 0%;
@@ -177,7 +190,7 @@
 @media (min-width: 1024px) {
   .member-dharam-pal-gupta {
     padding-bottom: 350px !important;
-    margin-top: -40px;
+    margin-top: -55px;
   }
 
   .member-gautam-gupta {
@@ -185,11 +198,11 @@
   }
 
   .member-gautam-gupta h3 {
-    margin-top: 50px;
+    margin-top: 200px;
   }
 
   .member-rachit-gupta {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .member-diksha-gupta {
@@ -197,30 +210,57 @@
   }
 
   .member-diksha-gupta h3 {
-    margin-top: 50px;
+    margin-top: 200px;
   }
 
   .member-rohil-gupta {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .year-1959.year-index-0 {
-    margin-top: -315px;
+      margin-top: -530px;
+      margin-left: -340px !important;
   }
 
   .year-1990.year-index-1 {
-    margin-top: -490px;
+    margin-top: -590px;
   }
 
   .year-2021.year-index-2 {
-    margin-top: -315px;
+    margin-top: -460px;
   }
 
   .year-2021.year-index-3 {
-    margin-top: -490px;
+    margin-top: -590px;
   }
 
   .year-2024.year-index-4 {
-    margin-top: -315px;
+            margin-top: -530px;
+              margin-right: -340px !important;
+  }
+}
+
+/* Team Member Page - Mobile Responsiveness */
+@media (max-width: 767px) {
+  #profile-section {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 1rem !important;
+  }
+
+  #team-member-content {
+    margin-top: 80px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #profile-section {
+    max-width: 80rem !important;
+    width: 80rem !important;
+    padding: 1rem !important;
+  }
+
+  #team-member-content {
+    margin-top: 120px !important;
   }
 }

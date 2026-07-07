@@ -387,66 +387,7 @@ export default function JoinUs() {
         </div>
       </section>
 
-      {/* Why Join Us Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-12">
-        <div className="max-w-4xl mx-auto">
-          <h2
-            className="text-3xl font-normal text-gray-900 mb-16 text-center tracking-widest uppercase"
-            style={{
-              fontFamily: "Rajdhani, sans-serif",
-              letterSpacing: "8px",
-            }}
-          >
-            Why Join Gautam & Associates
-          </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {[
-              {
-                title: "Creative Growth",
-                description:
-                  "Work on diverse projects ranging from residential to commercial and hospitality, expanding your architectural expertise.",
-              },
-              {
-                title: "Mentorship",
-                description:
-                  "Learn from experienced architects with over 35 years of combined experience in architectural excellence.",
-              },
-              {
-                title: "Collaborative Environment",
-                description:
-                  "Be part of a dedicated team that values excellence, integrity, and innovative thinking.",
-              },
-              {
-                title: "Real-World Experience",
-                description:
-                  "Contribute to impactful projects that shape spaces and communities while building your professional portfolio.",
-              },
-            ].map((item, idx) => (
-              <div key={idx} className="bg-gray-50 p-8 rounded-lg hover:shadow-lg transition-shadow">
-                <h3
-                  className="text-lg font-normal text-gray-900 mb-4 uppercase tracking-wider"
-                  style={{
-                    fontFamily: "Rajdhani, sans-serif",
-                    letterSpacing: "3px",
-                  }}
-                >
-                  {item.title}
-                </h3>
-                <p
-                  className="text-sm text-gray-700 leading-relaxed"
-                  style={{
-                    fontFamily: "Rajdhani, sans-serif",
-                    lineHeight: "1.7",
-                  }}
-                >
-                  {item.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       <Footer />
     </div>
