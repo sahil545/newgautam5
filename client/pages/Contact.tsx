@@ -234,7 +234,7 @@ export default function Contact() {
                   Stay Connected
                 </h2>
                 <a
-                  href="https://www.instagram.com/ar.gautamgupta1969?igsh=MWEwNjZpNW5qcmVobg%3D%3D"
+                  href="https://www.instagram.com/gautamassociates_1990?igsh=MXNrM3JpbG5heGZnaA==https://www.instagram.com/gautamassociates_1990?igsh=MXNrM3JpbG5heGZnaA=="
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-foreground hover:text-muted-foreground transition-colors"
