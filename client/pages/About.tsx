@@ -82,26 +82,11 @@ export default function About() {
       <section className="py-20 px-4 sm:px-6 lg:px-12" style={{ backgroundColor: "#f5f1e5" }}>
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            {/* Image */}
-            <div className="rounded-lg overflow-hidden shadow-lg order-2 md:order-1">
-              <img
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=500&fit=crop"
-                alt="Architectural Design"
-                className="w-full h-full object-cover"
-              />
-            </div>
+            
 
             {/* Content */}
             <div className="space-y-6 order-1 md:order-2">
-              <h2
-                className="text-3xl font-normal text-gray-900 tracking-widest uppercase"
-                style={{
-                  fontFamily: "Rajdhani, sans-serif",
-                  letterSpacing: "6px",
-                }}
-              >
-                Vision & Leadership
-              </h2>
+              
               <p
                 className="text-base text-gray-700 leading-relaxed"
                 style={{
