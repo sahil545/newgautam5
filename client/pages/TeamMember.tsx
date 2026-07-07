@@ -1,4 +1,5 @@
 import { useParams, Link, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 import { ChevronLeft } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -8,6 +9,10 @@ export default function TeamMember() {
   const { id } = useParams();
   const navigate = useNavigate();
   const member = teamMembers.find((m) => m.id === id);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
 
   if (!member) {
     return (
@@ -41,11 +46,11 @@ export default function TeamMember() {
 
       {/* Profile Content */}
       <section className="pt-32 pb-20 mx-auto" style={{ maxWidth: "80rem", width: "80rem", padding: "1rem" }}>
-        <div className="w-full" style={{ marginTop: "120px" }}>
+        <div className="w-full" id="team-member-content">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Image */}
             <div className="md:col-span-1">
-              <div className="sticky top-32">
+              <div className="sticky top-32 md:sticky md:top-32">
                 <div className="bg-gray-200 rounded-lg">
                   <img
                     src={member.image}

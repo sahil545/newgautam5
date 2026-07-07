@@ -239,3 +239,20 @@
               margin-right: -340px !important;
   }
 }
+
+/* Team Member Page - Mobile Responsiveness */
+@media (max-width: 768px) {
+  #team-member-content {
+    margin-top: 60px !important;
+  }
+
+  #team-member-content > div > div {
+    gap: 4px;
+  }
+}
+
+@media (min-width: 768px) {
+  #team-member-content {
+    margin-top: 120px !important;
+  }
+}
