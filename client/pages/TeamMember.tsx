@@ -40,8 +40,8 @@ export default function TeamMember() {
       </button>
 
       {/* Profile Content */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-12">
-        <div className="max-w-5xl mx-auto">
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-12 mx-auto" style={{ maxWidth: "80rem", width: "80rem" }}>
+        <div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/* Image */}
             <div className="md:col-span-1">
