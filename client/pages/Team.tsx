@@ -85,7 +85,7 @@ export default function Team() {
                           <h3 className="text-base font-bold text-gray-900 mb-0.5 tracking-wide">
                             {member.name}
                           </h3>
-                          <h5 className="text-sm font-bold text-gray-700 mb-2 tracking-wide">
+                          <h5 className="text-sm font-medium text-gray-500 mb-2 tracking-wide">
                             {member.role}
                           </h5>
                           <p className="text-xs text-gray-600 mb-3 leading-relaxed">
