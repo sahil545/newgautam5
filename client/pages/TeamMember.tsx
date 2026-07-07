@@ -49,7 +49,7 @@ export default function TeamMember() {
         <div className="w-full" id="team-member-content">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
             {/* Image */}
-            <div className="md:col-span-1">
+            <div className="md:col-span-1 mt-16 md:mt-0">
               <div className="sticky top-32 md:sticky md:top-32">
                 <div className="bg-gray-200 rounded-lg">
                   <img
