@@ -19,7 +19,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-gray-900 mb-4 uppercase tracking-wider text-xs">Office</h4>
             <ul className="space-y-2 text-xs text-gray-600">
-              <li>SCO 15 First Floor</li>
+              <li>SCO 13 First Floor</li>
               <li>Sector 20-D</li>
               <li>Dakshin-Marg</li>
               <li>Chandigarh</li>
