@@ -91,11 +91,11 @@ export default function Team() {
                           <p className="text-xs text-gray-600 mb-3 leading-relaxed">
                             {member.education}
                           </p>
-                          <div className="w-60 h-80 mx-auto overflow-hidden bg-gray-100">
+                          <div className="mx-auto overflow-hidden bg-gray-100" style={{ width: "180px", height: "auto" }}>
                             <img
                               src={member.image}
                               alt={member.name}
-                              className="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"
+                              className="w-full h-auto object-cover group-hover:opacity-90 transition-opacity duration-300"
                             />
                           </div>
                         </div>
