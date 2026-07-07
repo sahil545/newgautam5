@@ -35,7 +35,7 @@ export default function Team() {
       </section>
 
       {/* Timeline Section */}
-      <section className="w-full py-16 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-12 lg:mx-auto" style={{ maxWidth: "100%", width: "100%" }} id="timeline-section">
+      <section className="w-full py-16 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-12 lg:mx-auto" id="timeline-section">
         {/* Desktop Timeline */}
         <div className="hidden lg:block">
           <div className="relative w-full" style={{ minHeight: "550px" }}>
