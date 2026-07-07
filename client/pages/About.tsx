@@ -79,7 +79,7 @@ export default function About() {
       </section>
 
       {/* Vision & Leadership Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-12" style={{ backgroundColor: "#f5f1e5" }}>
+      <section className="py-4 px-4 sm:px-6 lg:px-12" style={{ backgroundColor: "#f5f1e5" }}>
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-1 gap-12 items-center text-center">
             
@@ -113,17 +113,9 @@ export default function About() {
  
 
       {/* Legacy Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-12" style={{ backgroundColor: "#f5f1e5" }}>
+      <section className="py-4 px-4 sm:px-6 lg:px-12" style={{ backgroundColor: "#f5f1e5" }}>
         <div className="max-w-4xl mx-auto text-center">
-          <h2
-            className="text-3xl font-normal text-gray-900 mb-12 tracking-widest uppercase"
-            style={{
-              fontFamily: "Rajdhani, sans-serif",
-              letterSpacing: "8px",
-            }}
-          >
-            Our Legacy
-          </h2>
+          
           <p
             className="text-base text-gray-700 leading-relaxed mb-8"
             style={{
@@ -146,17 +138,9 @@ export default function About() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-12">
+      <section className="py-4 px-4 sm:px-6 lg:px-12">
         <div className="max-w-4xl mx-auto text-center">
-          <h2
-            className="text-3xl font-normal text-gray-900 mb-8 tracking-widest uppercase"
-            style={{
-              fontFamily: "Rajdhani, sans-serif",
-              letterSpacing: "8px",
-            }}
-          >
-            Meet Our Team
-          </h2>
+        
           <p
             className="text-lg text-gray-700 mb-8 leading-relaxed"
             style={{
