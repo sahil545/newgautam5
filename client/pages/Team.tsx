@@ -11,7 +11,7 @@ export default function Team() {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-12 mx-auto" style={{ maxWidth: "1300px", width: "1300px" }}>
+      <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-12 w-full lg:mx-auto" style={{ maxWidth: "100%", width: "100%" }} id="hero-section">
         <div className="max-w-4xl mx-auto text-center">
           <h1
             className="text-4xl md:text-5xl font-normal text-gray-900 mb-8 tracking-widest uppercase"
@@ -35,7 +35,7 @@ export default function Team() {
       </section>
 
       {/* Timeline Section */}
-      <section className="w-full py-16 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-12 mx-auto" style={{ maxWidth: "1300px", width: "1300px" }}>
+      <section className="w-full py-16 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-12 lg:mx-auto" style={{ maxWidth: "100%", width: "100%" }} id="timeline-section">
         {/* Desktop Timeline */}
         <div className="hidden lg:block">
           <div className="relative w-full" style={{ minHeight: "550px" }}>

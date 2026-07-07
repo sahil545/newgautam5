@@ -13,6 +13,19 @@
    * tailwind.config.ts expects the following color variables to be expressed as HSL values.
    * A different format will require also updating the theme in tailwind.config.ts.
   */
+
+  @media (min-width: 1024px) {
+    #hero-section {
+      max-width: 1300px;
+      width: 1300px;
+    }
+
+    #timeline-section {
+      max-width: 1300px;
+      width: 1300px;
+    }
+  }
+
   :root {
     --background: 0 0% 100%;
     --foreground: 0 0% 0%;
