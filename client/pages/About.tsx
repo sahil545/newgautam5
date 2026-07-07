@@ -81,7 +81,7 @@ export default function About() {
       {/* Vision & Leadership Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-12" style={{ backgroundColor: "#f5f1e5" }}>
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-1 gap-12 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-12 items-center text-center">
             
 
             {/* Content */}
