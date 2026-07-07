@@ -42,7 +42,7 @@ export default function Team() {
             {/* Horizontal Center Line */}
             <div
               className="absolute left-0 w-full h-0.5 bg-black"
-              style={{ top: "47%" }}
+              style={{ top: "50%" }}
             ></div>
 
             {/* Grid Container */}
